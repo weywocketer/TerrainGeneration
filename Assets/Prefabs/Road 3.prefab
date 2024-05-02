@@ -130,24 +130,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ebebe6aced4c6745a2e5412a31786db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Weight: 1
-  IsOmnidirectional: 1
+  Weight: 10
   LegalNeighboursNorth:
   - {fileID: 1307510414815998976, guid: 495a61beeb8a6a440a9121e76da31e14, type: 3}
   - {fileID: 1307510414815998976, guid: fc50f8f259570bb4d8ff55bc1d76fb16, type: 3}
+  - {fileID: 1307510414815998976, guid: b76a311d3ccf30a4d9f5346713695f3d, type: 3}
+  - {fileID: 1307510414815998976, guid: 42f93cafffe386747b3e36657beb7403, type: 3}
+  - {fileID: 1307510414815998976, guid: 48038cf14ae56ad4a8c0b65b4db92e25, type: 3}
   LegalNeighboursEast:
   - {fileID: 1307510414815998976, guid: 495a61beeb8a6a440a9121e76da31e14, type: 3}
   - {fileID: 1307510414815998976, guid: fc50f8f259570bb4d8ff55bc1d76fb16, type: 3}
+  - {fileID: 1307510414815998976, guid: 42f93cafffe386747b3e36657beb7403, type: 3}
   LegalNeighboursSouth:
   - {fileID: 1307510414815998976, guid: b4471ce847d592a489a081138312f096, type: 3}
   - {fileID: 1307510414815998976, guid: fc50f8f259570bb4d8ff55bc1d76fb16, type: 3}
   - {fileID: 1307510414815998976, guid: 2593f3a612a55a147a3d62f5a7c169aa, type: 3}
   - {fileID: 1307510414815998976, guid: a324600dee2baaf4186d46b7c76e5cb0, type: 3}
+  - {fileID: 1307510414815998976, guid: b76a311d3ccf30a4d9f5346713695f3d, type: 3}
   LegalNeighboursWest:
   - {fileID: 1307510414815998976, guid: 10825a066c59b2242867b7a7a0ff0f21, type: 3}
   - {fileID: 1307510414815998976, guid: fc50f8f259570bb4d8ff55bc1d76fb16, type: 3}
   - {fileID: 1307510414815998976, guid: 8fb505cba00886c4696d59b45c4423fc, type: 3}
   - {fileID: 1307510414815998976, guid: a324600dee2baaf4186d46b7c76e5cb0, type: 3}
+  - {fileID: 1307510414815998976, guid: 17f2e225b59b44e438572013f40539b3, type: 3}
 --- !u!1 &4509635332094472277
 GameObject:
   m_ObjectHideFlags: 0

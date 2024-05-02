@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GridSize: {x: 100, y: 100}
   UsedTiles:
+  - {fileID: 1307510414815998976, guid: fc50f8f259570bb4d8ff55bc1d76fb16, type: 3}
   - {fileID: 1307510414815998976, guid: 495a61beeb8a6a440a9121e76da31e14, type: 3}
   - {fileID: 1307510414815998976, guid: b4471ce847d592a489a081138312f096, type: 3}
   - {fileID: 1307510414815998976, guid: 10825a066c59b2242867b7a7a0ff0f21, type: 3}
@@ -161,7 +162,10 @@ MonoBehaviour:
   - {fileID: 1307510414815998976, guid: 8fb505cba00886c4696d59b45c4423fc, type: 3}
   - {fileID: 1307510414815998976, guid: 2593f3a612a55a147a3d62f5a7c169aa, type: 3}
   - {fileID: 1307510414815998976, guid: a324600dee2baaf4186d46b7c76e5cb0, type: 3}
-  - {fileID: 1307510414815998976, guid: fc50f8f259570bb4d8ff55bc1d76fb16, type: 3}
+  - {fileID: 1307510414815998976, guid: 17f2e225b59b44e438572013f40539b3, type: 3}
+  - {fileID: 1307510414815998976, guid: b76a311d3ccf30a4d9f5346713695f3d, type: 3}
+  - {fileID: 1307510414815998976, guid: 42f93cafffe386747b3e36657beb7403, type: 3}
+  - {fileID: 1307510414815998976, guid: 48038cf14ae56ad4a8c0b65b4db92e25, type: 3}
   _stepDelay: 0
 --- !u!4 &310330351
 Transform:
@@ -274,6 +278,7 @@ GameObject:
   - component: {fileID: 1514004579}
   - component: {fileID: 1514004578}
   - component: {fileID: 1514004581}
+  - component: {fileID: 1514004582}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -399,6 +404,19 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &1514004582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514004577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b656ea8567859da419b84111945935f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wfc: {fileID: 310330350}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -44,7 +44,11 @@ public class WfcCell
         PossibleTiles.Add(chosenTile);
 
         // Skip collapse if it's impossible.
-        if (chosenTile == null) { return; }
+        if (chosenTile == null)
+        {
+            _wfc.CreateTile(_wfc.UsedTiles[0], (Vector3Int)_gridPosition);
+            return;
+        }
 
         _wfc.CreateTile(chosenTile, (Vector3Int)_gridPosition);
 

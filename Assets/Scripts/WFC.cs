@@ -9,7 +9,7 @@ public class WFC : MonoBehaviour
     public WfcCell[,] CellGrid;
     public List<WfcCell> NextStepCandidates;
 
-    [SerializeField] List<GameObject> UsedTiles;
+    public List<GameObject> UsedTiles;
     [SerializeField] float _stepDelay = 0.1f;
 
     void Start()
